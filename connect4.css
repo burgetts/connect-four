@@ -1,0 +1,68 @@
+/* game board table */
+
+* {
+  background-color: lightsteelblue;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  padding: 1% 10%;
+  font-size: 100%;
+}
+
+#board {
+  width: 50%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+}
+
+#board td {
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+}
+
+#column-top td {
+  border: dashed 1px black;
+}
+
+#button {
+  margin-top: 2%;
+  text-align: center;
+  height: 100%;
+}
+
+.piece {
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%; 
+}
+
+.p1 {
+  background-color: lightgoldenrodyellow;
+}
+
+.p2 {
+  background-color: lightcoral;
+}
+
+.p1Top:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+.p2Top:hover{
+  background-color: lightcoral;
+}
+
